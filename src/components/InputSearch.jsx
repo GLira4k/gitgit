@@ -11,7 +11,7 @@ const onSearch = (value, _e, info) => {
 function InputSearch() {
     return(
   <Space direction="vertical">
-    <Search size='large' placeholder="input search text" onSearch={onSearch} enterButton />
+    <Search size='large' placeholder="Usuário" onSearch={onSearch} enterButton  onCL/>
   </Space>
   );
 }
