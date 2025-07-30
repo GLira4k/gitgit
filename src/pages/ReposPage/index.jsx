@@ -1,11 +1,14 @@
 import React from 'react';
 import {Container, Sidebar, Main} from './styles';
+import Filter from './Filter/Filter';
+import Profile from './Profile/ProfileIndex';
 
 function ReposPage() {
     return(
         <Container>
             <Sidebar>
-                <h1>Sidebar</h1>
+                <Profile />
+                <Filter />
             </Sidebar>
             <Main>
                 <h1>Main</h1>
